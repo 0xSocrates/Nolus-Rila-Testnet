@@ -163,7 +163,18 @@ nolusd tx staking create-validator \
 --fees 550unls
 ```
 * çıktıda verdiği txhashi explorerda aratarak bakabilirsiniz.
+### node silmek için
+```
+sudo systemctl stop nolusd
+sudo systemctl disable nolusd
+rm -rf /etc/systemd/system/nolusd.service
+sudo rm -rf $(which nolusd)
+sudo rm -rf $HOME/.nolus
+sudo rm -rf $HOME/nolus
+```
 ## yararlı komutlar için: [link](https://forum.rues.info/index.php?threads/cosmos-aglarinda-kullanilan-ortak-komutlar.2540/)
+
+
 
 [Explorer](https://explorer-rila.nolus.io/nolus-rila)
 
