@@ -16,7 +16,7 @@ Nolus testnet kurulum rehberi.
 sudo apt update && sudo apt upgrade -y
 ```
 ```
-sudo apt install curl tar wget tmux htop net-tools clang pkg-config libssl-dev jq build-essential git make ncdu -y
+sudo apt install curl tar wget tmux htop net-tools clang pkg-config libssl-dev jq build-essential git screen make ncdu -y
 ```
 ### go kurulumu
 ```
